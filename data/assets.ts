@@ -1,0 +1,77 @@
+interface Asset {
+  name: string;
+  symbol: string;
+}
+
+// NOTE: Symbols are in the format for the Yahoo Finance API.
+export const nifty50: Asset[] = [
+  { name: "Adani Enterprises", symbol: "ADANIENT.NS" },
+  { name: "Adani Ports", symbol: "ADANIPORTS.NS" },
+  { name: "Apollo Hospitals", symbol: "APOLLOHOSP.NS" },
+  { name: "Asian Paints", symbol: "ASIANPAINT.NS" },
+  { name: "Axis Bank", symbol: "AXISBANK.NS" },
+  { name: "Bajaj Auto", symbol: "BAJAJ-AUTO.NS" },
+  { name: "Bajaj Finance", symbol: "BAJFINANCE.NS" },
+  { name: "Bajaj Finserv", symbol: "BAJAJFINSV.NS" },
+  { name: "BPCL", symbol: "BPCL.NS" },
+  { name: "Bharti Airtel", symbol: "BHARTIARTL.NS" },
+  { name: "Britannia Industries", symbol: "BRITANNIA.NS" },
+  { name: "Cipla", symbol: "CIPLA.NS" },
+  { name: "Coal India", symbol: "COALINDIA.NS" },
+  { name: "Divi's Laboratories", symbol: "DIVISLAB.NS" },
+  { name: "Dr. Reddy's Laboratories", symbol: "DRREDDY.NS" },
+  { name: "Eicher Motors", symbol: "EICHERMOT.NS" },
+  { name: "Grasim Industries", symbol: "GRASIM.NS" },
+  { name: "HCL Technologies", symbol: "HCLTECH.NS" },
+  { name: "HDFC Bank", symbol: "HDFCBANK.NS" },
+  { name: "HDFC Life Insurance", symbol: "HDFCLIFE.NS" },
+  { name: "Hero MotoCorp", symbol: "HEROMOTOCO.NS" },
+  { name: "Hindalco Industries", symbol: "HINDALCO.NS" },
+  { name: "Hindustan Unilever", symbol: "HINDUNILVR.NS" },
+  { name: "ICICI Bank", symbol: "ICICIBANK.NS" },
+  { name: "ITC", symbol: "ITC.NS" },
+  { name: "Infosys", symbol: "INFY.NS" },
+  { name: "JSW Steel", symbol: "JSWSTEEL.NS" },
+  { name: "Kotak Mahindra Bank", symbol: "KOTAKBANK.NS" },
+  { name: "Larsen & Toubro", symbol: "LT.NS" },
+  { name: "LTIMindtree", symbol: "LTIM.NS" },
+  { name: "Mahindra & Mahindra", symbol: "M&M.NS" },
+  { name: "Maruti Suzuki India", symbol: "MARUTI.NS" },
+  { name: "NTPC", symbol: "NTPC.NS" },
+  { name: "Nestle India", symbol: "NESTLEIND.NS" },
+  { name: "ONGC", symbol: "ONGC.NS" },
+  { name: "Power Grid Corporation", symbol: "POWERGRID.NS" },
+  { name: "Reliance Industries", symbol: "RELIANCE.NS" },
+  { name: "SBI Life Insurance", symbol: "SBILIFE.NS" },
+  { name: "State Bank of India", symbol: "SBIN.NS" },
+  { name: "Shriram Finance", symbol: "SHRIRAMFIN.NS" },
+  { name: "Sun Pharmaceutical", symbol: "SUNPHARMA.NS" },
+  { name: "Tata Consultancy Services", symbol: "TCS.NS" },
+  { name: "Tata Consumer Products", symbol: "TATACONSUM.NS" },
+  { name: "Tata Motors", symbol: "TATAMOTORS.NS" },
+  { name: "Tata Steel", symbol: "TATASTEEL.NS" },
+  { name: "Tech Mahindra", symbol: "TECHM.NS" },
+  { name: "Titan Company", symbol: "TITAN.NS" },
+  { name: "UltraTech Cement", symbol: "ULTRACEMCO.NS" },
+  { name: "UPL", symbol: "UPL.NS" },
+  { name: "Wipro", symbol: "WIPRO.NS" },
+];
+
+export const indices: Asset[] = [
+  { name: "S&P 500 (USA)", symbol: "^GSPC" },
+  { name: "Dow Jones Industrial Average (USA)", symbol: "^DJI" },
+  { name: "NASDAQ 100 (USA)", symbol: "^NDX" },
+  { name: "FTSE 100 (UK)", symbol: "^FTSE" },
+  { name: "DAX (Germany)", symbol: "^GDAXI" },
+  { name: "Nikkei 225 (Japan)", symbol: "^N225" },
+  { name: "Hang Seng (Hong Kong)", symbol: "^HSI" },
+  { name: "NIFTY 50 (India)", symbol: "^NSEI" },
+];
+
+export const commodities: Asset[] = [
+  { name: "Gold", symbol: "GC=F" },
+  { name: "Silver", symbol: "SI=F" },
+  { name: "Crude Oil (WTI)", symbol: "CL=F" },
+  { name: "Natural Gas", symbol: "NG=F" },
+  { name: "Copper", symbol: "HG=F" },
+];
